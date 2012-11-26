@@ -8,4 +8,8 @@ $(document).ready(function() {
 
 	$('tr:odd').css('background', '#C9C9C9');
 
+	$('.dropdown-toggle').click(function() {
+		$('.dropdown-menu').fadeToggle();
+	});
+
 });
