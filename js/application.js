@@ -6,4 +6,6 @@ $(document).ready(function() {
 
 	$('#copyright').html('&copy; EIK ' + new Date().getFullYear());
 
+	$('tr:odd').css('background', '#C9C9C9');
+
 });
