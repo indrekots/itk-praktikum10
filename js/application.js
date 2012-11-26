@@ -4,4 +4,6 @@ $(document).ready(function() {
 	//$('span').css('font-weight', 'bold');
 	$('.hero-unit span').addClass('highlight');
 
+	$('#copyright').html('&copy; EIK ' + new Date().getFullYear());
+
 });
